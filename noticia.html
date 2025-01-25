@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Template</title>
+    <title>Periódico Escolar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -13,19 +13,24 @@
         <h1>PERIÓDICO ESCOLAR</h1>
         <hr>
         <div class="subheader">
-            <ul>
-                <li>IES TORRE ALMENARA</li>
-                <li>Semana 3</li>
-                <li>13 enero hasta 19 enero 2025</li>
-                <li>Mijas, Málaga</li>
-            </ul>
+            <nav>
+                <ul class="subheader">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="noticia.html">Noticias</a></li>
+                    <li><a href="noticiaFicticia.html">Noticias Ficticias</a></li>
+                    <li><a href="anuncio.html">Anuncios</a></li>
+                    <li><a href="cultura.html">Cultura</a></li>
+                </ul>
+            </nav>
         </div>
         <hr>
+        
     </header>
 
-    <div class="container">        
+    <container>        
         <section class="detail">
             <h3>Elegir, después de la ESO</h3>
+            <small>Noticia inventada | Mijas, Málaga</small>
             <div class="columns-container">
                 <div class="two-columns">                    
                     <p>El próximo viernes 19 de enero, el Instituto de Educación Secundaria (IES) ofrecerá una charla educativa diseñada para orientar a los estudiantes de 4º de ESO sobre cómo elegir el camino más adecuado al finalizar esta etapa académica.</p>
@@ -36,17 +41,18 @@
                 </div>
                 <div class="two-columns" >
                     <img src="images/conferencia.png" style="width:100%; height: auto; margin-top: 25px;" />
-                    <small style="display: block; text-align: right; margin-bottom: 10px;">Educación | Mijas, Málaga</small>
+                    <small style="text-align: right;">Educación | Mijas, Málaga</small>
                     <p>La actividad es gratuita y se anima a todos los estudiantes de 4º de ESO a participar. Será una excelente oportunidad para resolver dudas y comenzar a visualizar el próximo paso en su trayectoria académica.</p>
                     <p>Para más información, los interesados pueden contactar con el Departamento de Orientación o consultar los carteles informativos distribuidos en el instituto.</p>
                 </div>
             </div>
+            <small> - Gerardo Huizar Castro -     |      Periódico escolar     |     16/01/2025  -  17:00  CET</small>
         </section>
-    </div>
+    </container>
 
     <div class="container">        
         <section class="detail">
-            <h3>Artículos en tendencia</h3>
+            <subtitulo><h3>Artículos en tendencia</h3><hr></subtitulo>
             <div class="columns-container">
                 <div class="three-columns">
                     <h6>Apoyo clave en la transición a Bachillerato</h6>
@@ -59,6 +65,24 @@
                 <div class="three-columns">
                     <h6>Hablar con los profesores, Pregunta por tus calificaciones</h6>
                     <p>Aprender a solicitar retroalimentación de forma respetuosa y efectiva es clave para mejorar en los estudios. Dialoguen con sus profesores y comprendan cómo avanzar académicamente.</p>
+                </div>
+            </div>
+            <!-- Noticias compañeros -->
+            <div class="columns-container">
+                <div class="three-columns">
+                    <h6>Desmienten bulo sobre la supuesta superioridad del diésel y la gasolina frente a combustibles alternativos</h6>
+                    <p>En redes sociales y sitios de opinión se difunden argumentos que defienden al diésel y la gasolina como las mejores opciones frente a los combustibles alternativos...</p>
+                    <a href="noticia2.html" class="read-more">Leer más →</a>
+                </div>
+                <div class="three-columns">
+                    <h6></h6>
+                    <p></p>
+                    <a href="noticia.html" class="read-more">Leer más →</a>
+                </div>
+                <div class="three-columns">
+                    <h6>Regresa al inicio</h6>
+                    <p></p>
+                    <a href="Index.html" class="read-more">Leer más →</a>
                 </div>
             </div>
         </section>

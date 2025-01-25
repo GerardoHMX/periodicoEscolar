@@ -4,105 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Template</title>
+    <title>Periódico Escolar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>PERIÓDICO ESCOLAR</h1>
+        <h1 class="newspaper-title">PERIÓDICO ESCOLAR</h1>
         <hr>
-        <div class="subheader">
-            <ul>
-                <li>IES TORRE ALMENARA</li>
-                <li>Semana 3</li>
-                <li>13 enero hasta 19 enero 2025</li>
-                <li>Mijas, Málaga</li>
+        <nav>
+            <ul class="subheader">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticia.html">Noticias</a></li>
+                <li><a href="noticiaFicticia.html">Noticias Ficticias</a></li>
+                <li><a href="anuncio.html">Anuncios</a></li>
+                <li><a href="cultura.html">Cultura</a></li>
             </ul>
-        </div>
+        </nav>
         <hr>
     </header>
-
-    <div class="container">
-        <section class="info">
-            <h2>Contacts</h2>
-            <p><strong>Instructor:</strong> Sarah Johnson</p>
-            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-            <p><strong>Email:</strong> sjohnson@example.com</p>
-            <p><strong>Office Room:</strong> 203</p>
-            <p><strong>Office Hours:</strong></p>
-            <ul>
-                <li>Mon: 10:00 AM - 12:00 PM</li>
-                <li>Fri: 9:00 AM - 11:00 AM</li>
-            </ul>
+    <main class="newspaper-container">
+        <section class="headline">
+            <h2>Bienvenidos al Periódico Escolar</h2>
+            <p class="subtitle">La voz de nuestra comunidad educativa</p>
         </section>
+    
+        <div class="news-grid">
+            <article class="main-story">
+                <h3>Elegir, después de la ESO</h3>
+                <img src="images/conferencia.png" alt="Conferencia educativa">
+                <p class="article-preview">El próximo viernes 19 de enero, el Instituto ofrecerá una charla educativa para
+                    orientar a estudiantes de 4º de ESO...</p>
+                <a href="noticia.html" class="read-more">Leer más →</a>
+            </article>
+    
+            <div class="secondary-stories">
+                <article>
+                    <h4>Noticias Ficticias</h4>
+                    <p class="article-preview">Descubre las historias más creativas de nuestros estudiantes...</p>
+                    <a href="noticiaFicticia.html" class="read-more">Ver más →</a>
+                </article>
+    
+                <article>
+                    <h4>Últimos Anuncios</h4>
+                    <p class="article-preview">Información importante para la comunidad escolar...</p>
+                    <a href="anuncio.html" class="read-more">Ver anuncios →</a>
+                </article>
 
-        <section class="detail">
-            <h2>About the Course</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </section>
-
-        <section class="detail">
-            <h4>Academic Bulletin</h4>
-            <p>Consectetur adipiscing elit. Donec luctus vulputate eros id euismod.<br>
-            <strong>Prerequisites:</strong> Nunc egestas nisi sit amet odio sollicitudin volutpat.</p>
-        </section>
-
-        <section class="detail">
-            <h3>Academic Description</h3>
-            <div class="columns-container">
-                <div class="three-columns">
-                    <h6>Column 1</h6>
-                    <p>Content for the first three-columns goes here. This can include text or other elements.</p>
-                </div>
-                <div class="three-columns">
-                    <h6>Column 2</h6>
-                    <p>Content for the second three-columns goes here. This can include text or other elements.</p>
-                </div>
-                <div class="three-columns">
-                    <h6>Column 3</h6>
-                    <p>Content for the third three-columns goes here. This can include text or other elements.</p>
-                </div>
+                <article>
+                    <h4>Cultura</h4>
+                    <p class="article-preview">Entrevistas a los autores más representativos del romanticismo</p>
+                    <a href="cultura.html" class="read-more">Ver más →</a>
+                </article>
             </div>
-        </section>
-
-        <section class="detail">
-            <h3>Academic Description</h3>
-            <div class="columns-container">
-                <div class="two-columns">
-                    <h6>Column 1</h6>
-                    <p>Content for the first three-columns goes here. This can include text or other elements.</p>
-                </div>
-                <div class="two-columns">
-                    <h6>Column 2</h6>
-                    <p>Content for the second three-columns goes here. This can include text or other elements.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="detail">
-            <div class="image-detail">
-                <img src="https://picsum.photos/300/200" alt="Lorem Ipsum photos">
-                <div class="text">
-                    <h3>Colegio Público</h3>
-                    <p>El centro celebra sus 150 años en la zona. En él se ubicó la primera capilla dedicada al Sagrado Corazón en Navarra. Con 12 profesores y 88 estudiantes, ofrece francés como idioma extranjero.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="detail">
-            <div class="image-detail">                
-                <div class="text">
-                    <h3>Colegio Público</h3>
-                    <p>El centro celebra sus 150 años en la zona. En él se ubicó la primera capilla dedicada al Sagrado Corazón en Navarra. Con 12 profesores y 88 estudiantes, ofrece francés como idioma extranjero.</p>
-                </div>
-                <img src="https://picsum.photos/300/200" alt="Lorem Ipsum photos">
-            </div>
-        </section>  
-        
-    </div>
-
+        </div>
+    </main>
     <footer>
         <hr>
         <div class="subheader">

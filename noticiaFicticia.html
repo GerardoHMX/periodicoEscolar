@@ -4,41 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Template</title>
+    <title>Periódico Escolar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <h1>PERIÓDICO ESCOLAR</h1>
-        <hr>
         <div class="subheader">
-            <ul>
-                <li>IES TORRE ALMENARA</li>
-                <li>Semana 3</li>
-                <li>13 enero hasta 19 enero 2025</li>
-                <li>Mijas, Málaga</li>
-            </ul>
+            <hr>
+            <nav>
+                <ul class="subheader">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="noticia.html">Noticias</a></li>
+                    <li><a href="noticiaFicticia.html">Noticias Ficticias</a></li>
+                    <li><a href="anuncio.html">Anuncios</a></li>
+                    <li><a href="cultura.html">Cultura</a></li>
+                </ul>
+            </nav>
+            <hr>
         </div>
-        <hr>
     </header>
 
-    <div class="container">        
-        <section class="detail"> <!-- Noticia ficticia: https://cadenaser.com/nacional/2024/11/04/los-700-tickets-de-coches-atrapados-en-el-parking-de-bonaire-el-bulo-sin-escrupulos-de-los-agitadores-tras-la-dana-cadena-ser/?utm_source=chatgpt.com -->
+    <container>
+        <section class="detail">
             <h3>700 coches atrapados en el parking de Bonaire tras la DANA</h3>
-            <p>Tras las intensas lluvias ocasionadas por la DANA en enero de 2025, comenzó a circular un alarmante rumor sobre 700 vehículos atrapados en el parking subterráneo del centro comercial Bonaire, ubicado en Aldaia, Valencia. Sin embargo, la información ha sido categóricamente desmentida por las autoridades y el propio centro comercial.</p>
-            <p>El bulo, que se propagó rápidamente a través de redes sociales y cadenas de mensajería, incluía imágenes impactantes de coches inundados que, según se ha comprobado, no corresponden al lugar ni a los hechos. Los responsables de difundir esta información falsa permanecen anónimos, aunque se sospecha que su objetivo era generar alarma y cuestionar la gestión de los efectos de las lluvias.</p>
-            <p>Uno de los principales difusores fue Bertrand Ndongo, conocido militante de Vox, quien afirmó en sus redes sociales que "700 tickets del aparcamiento subterráneo aún no han salido del mismo". Esta información es falsa, ya que el aparcamiento de Bonaire es gratuito y no utiliza un sistema de tickets.</p>
+            <small>Noticia ficticia | Mijas, Málaga</small>
+            <p>Tras las intensas lluvias ocasionadas por la DANA en enero de 2025, comenzó a circular un alarmante rumor sobre 700 vehículos atrapados en el parking subterráneo del centro comercial Bonaire, ubicado en Aldaia, Valencia. Sin
+                embargo, la información ha sido categóricamente desmentida por las autoridades y el propio centro comercial.</p>
+            <p>El bulo, que se propagó rápidamente a través de redes sociales y cadenas de mensajería, incluía imágenes impactantes de coches inundados que, según se ha comprobado, no corresponden al lugar ni a los hechos. Los responsables
+                de difundir esta información falsa permanecen anónimos, aunque se sospecha que su objetivo era generar alarma y cuestionar la gestión de los efectos de las lluvias.</p>
+            <p>Uno de los principales difusores fue Bertrand Ndongo, conocido militante de Vox, quien afirmó en sus redes sociales que "700 tickets del aparcamiento subterráneo aún no han salido del mismo". Esta información es falsa, ya que
+                el aparcamiento de Bonaire es gratuito y no utiliza un sistema de tickets.</p>
             <p>Otro individuo que contribuyó a la propagación de este bulo fue Rubén Gisbert, youtuber y abogado, quien, sin aportar pruebas, aseguró que en el aparcamiento había "cientos de cadáveres".</p>
             <p>Es importante destacar que, según la Policía Nacional y los equipos de rescate, tras inspeccionar el aparcamiento de Bonaire, no se encontraron víctimas mortales.</p>
-            <p>El centro comercial Bonaire, a través de un comunicado oficial, aseguró que sus instalaciones se encuentran operativas y que no se reportaron incidentes de tal magnitud. Por su parte, las autoridades locales han reiterado la importancia de contrastar las noticias antes de compartirlas para evitar la propagación de desinformación.</p>
-            <p>Este caso pone en evidencia la capacidad de los bulos para generar pánico en situaciones críticas y la necesidad de actuar con responsabilidad en el manejo de la información en redes sociales.</p>            
+            <div class="images-container">
+                <img src="images/parking5.png" />
+                <img src="images/parking2.png" /> 
+            </div>
+            <p>El centro comercial Bonaire, a través de un comunicado oficial, aseguró que sus instalaciones se encuentran operativas y que no se reportaron incidentes de tal magnitud. Por su parte, las autoridades locales han reiterado la
+                importancia de contrastar las noticias antes de compartirlas para evitar la propagación de desinformación.</p>
+            <p>Este caso pone en evidencia la capacidad de los bulos para generar pánico en situaciones críticas y la necesidad de actuar con responsabilidad en el manejo de la información en redes sociales.</p>
+            <small> - Gerardo Huizar Castro - | Periódico escolar | 16/01/2025 - 17:30 CET</small>
+            <small>Referencia: <a href="https://cadenaser.com/nacional/2024/11/04/los-700-tickets-de-coches-atrapados-en-el-parking-de-bonaire-el-bulo-sin-escrupulos-de-los-agitadores-tras-la-dana-cadena-ser"
+                    target="_blank">https://cadenaser.com/nacional/2024/11/04/los-700-tickets-de-coches-atrapados-en-el-parking-de-bonaire-el-bulo-sin-escrupulos-de-los-agitadores-tras-la-dana-cadena-ser</a></small>
         </section>
-    </div>
+    </container>
 
-    <div class="container">        
+    <container>
         <section class="detail">
-            <h3>Lo más leido</h3>
+            <subtitulo>
+                <h3>Lo más leido</h3>
+                <hr>
+            </subtitulo>
             <div class="columns-container">
                 <div class="three-columns">
                     <h6>Agencia de meteorología francesa avisó de la DANA de Valencia</h6>
@@ -54,7 +72,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </container>
 
     <footer>
         <hr>
