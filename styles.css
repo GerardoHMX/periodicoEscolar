@@ -309,9 +309,9 @@ subtitulo hr {
     box-sizing: border-box;
     border-radius: 2px;
     background-color: #fafafa;
-    object-fit: cover;
+    object-fit: fill;
     width: 400px;
-    height: 300px;
+    height: auto;
 }
 
 .bg-blue {
@@ -426,4 +426,16 @@ subtitulo hr {
 
 .text-justify {
     text-align: justify;
+}
+
+ .link{
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    cursor: pointer;
 }
